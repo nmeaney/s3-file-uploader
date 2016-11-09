@@ -1,5 +1,5 @@
-// Upload sample user activity log files to S3
 // NOTE: All file operations are synchronous
+
 const fs = require('fs');
 const AWS = require('aws-sdk');
 const config = require('./config');
